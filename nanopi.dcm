@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NanoPi_Core_GPIO1
+D GPIO1 pins next to MicroUSB
+K connector
+F http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Core#Diagram.2C_Layout_and_Dimension
+$ENDCMP
+#
+$CMP NanoPi_Core_GPIO2
+D GPIO2 pins next to SD Card
+K connector
+F http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Core#Diagram.2C_Layout_and_Dimension
+$ENDCMP
+#
+$CMP NanoPi_Core_GPIO3
+D GPIO3 pins oposite of SD Card and MicroUSB
+K connector
+F http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Core#Diagram.2C_Layout_and_Dimension
+$ENDCMP
+#
+#End Doc Library

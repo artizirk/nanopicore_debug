@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nanopicore_stm32)(type KiCad)(uri ${KIPRJMOD}/nanopicore_stm32.pretty)(options "")(descr ""))
+)
