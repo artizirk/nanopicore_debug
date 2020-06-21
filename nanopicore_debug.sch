@@ -16,32 +16,21 @@ $EndDescr
 $Comp
 L nanopi:NanoPi_Core_GPIO1 J2
 U 1 1 5E855105
-P 7800 1300
-F 0 "J2" H 7850 2017 50  0000 C CNN
-F 1 "NanoPi_Core_GPIO1" H 7850 1926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 7800 1300 50  0001 C CNN
-F 3 "~" H 7800 1300 50  0001 C CNN
-	1    7800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L nanopi:NanoPi_Core_GPIO3 J3
-U 1 1 5E87D65F
-P 4950 1250
-F 0 "J3" H 5150 1925 50  0000 C CNN
-F 1 "NanoPi_Core_GPIO3" H 5150 1834 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 4500 1300 50  0001 C CNN
-F 3 "http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Core#Diagram.2C_Layout_and_Dimension" H 4500 1300 50  0001 C CNN
-	1    4950 1250
+P 7950 1300
+F 0 "J2" H 8000 2017 50  0000 C CNN
+F 1 "NanoPi_Core_GPIO1" H 8000 1926 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 7950 1300 50  0001 C CNN
+F 3 "~" H 7950 1300 50  0001 C CNN
+	1    7950 1300
 	1    0    0    -1  
 $EndComp
 Text GLabel 1150 800  0    50   Input ~ 0
 VDD_5V
 Text GLabel 3250 1800 2    50   Input ~ 0
 VDD_5V
-Text GLabel 8850 800  2    50   Input ~ 0
+Text GLabel 9000 800  2    50   Input ~ 0
 VDD_5V
-Text GLabel 8850 900  2    50   Input ~ 0
+Text GLabel 9000 900  2    50   Input ~ 0
 VDD_5V
 Text GLabel 4300 1600 0    50   Input ~ 0
 VDD_5V
@@ -51,13 +40,13 @@ Text GLabel 3250 1900 2    50   Input ~ 0
 GND
 Text GLabel 1150 1900 0    50   Input ~ 0
 GND
-Text GLabel 8850 1000 2    50   Input ~ 0
+Text GLabel 9000 1000 2    50   Input ~ 0
 GND
-Text GLabel 8850 1400 2    50   Input ~ 0
+Text GLabel 9000 1400 2    50   Input ~ 0
 GND
-Text GLabel 8850 1700 2    50   Input ~ 0
+Text GLabel 9000 1700 2    50   Input ~ 0
 GND
-Text GLabel 6750 1200 0    50   Input ~ 0
+Text GLabel 6900 1200 0    50   Input ~ 0
 GND
 Text GLabel 4300 1300 0    50   Input ~ 0
 GND
@@ -91,7 +80,7 @@ L Interface_USB:CH340G U2
 U 1 1 5E8EADB8
 P 9500 5150
 F 0 "U2" H 9700 5800 50  0000 C CNN
-F 1 "CH340G" H 9750 5700 50  0000 C CNN
+F 1 "CH340G/C" H 9750 5700 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9550 4600 50  0001 L CNN
 F 3 "http://www.datasheet5.com/pdf-local-2195953" H 9150 5950 50  0001 C CNN
 	1    9500 5150
@@ -478,31 +467,28 @@ NoConn ~ 4300 900
 NoConn ~ 4300 1000
 NoConn ~ 4300 1400
 NoConn ~ 4300 1500
-NoConn ~ 6000 1700
 NoConn ~ 6000 1600
 NoConn ~ 6000 1500
 NoConn ~ 6000 1400
 NoConn ~ 6000 1000
 NoConn ~ 6000 900 
 NoConn ~ 6000 800 
-NoConn ~ 6750 800 
-NoConn ~ 6750 900 
-NoConn ~ 6750 1000
-NoConn ~ 6750 1100
-NoConn ~ 6750 1300
-NoConn ~ 6750 1400
-NoConn ~ 6750 1500
-NoConn ~ 6750 1600
-NoConn ~ 6750 1700
-NoConn ~ 6750 1800
-NoConn ~ 6750 1900
-NoConn ~ 8850 1900
-NoConn ~ 8850 1800
-NoConn ~ 8850 1600
-NoConn ~ 8850 1500
-NoConn ~ 8850 1300
-NoConn ~ 8850 1200
-NoConn ~ 8850 1100
+NoConn ~ 6900 900 
+NoConn ~ 6900 1000
+NoConn ~ 6900 1100
+NoConn ~ 6900 1300
+NoConn ~ 6900 1400
+NoConn ~ 6900 1500
+NoConn ~ 6900 1700
+NoConn ~ 6900 1800
+NoConn ~ 6900 1900
+NoConn ~ 9000 1900
+NoConn ~ 9000 1800
+NoConn ~ 9000 1600
+NoConn ~ 9000 1500
+NoConn ~ 9000 1300
+NoConn ~ 9000 1200
+NoConn ~ 9000 1100
 $Comp
 L Connector:USB_A J5
 U 1 1 5E8A11CD
@@ -645,4 +631,40 @@ Text GLabel 1550 2600 1    50   Input ~ 0
 VDD_5V
 Wire Wire Line
 	1550 2600 1550 2650
+$Comp
+L nanopi:NanoPi_Core_GPIO3 J3
+U 1 1 5E87D65F
+P 4950 1250
+F 0 "J3" H 5150 1925 50  0000 C CNN
+F 1 "NanoPi_Core_GPIO3" H 5150 1834 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 4500 1300 50  0001 C CNN
+F 3 "http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Core#Diagram.2C_Layout_and_Dimension" H 4500 1300 50  0001 C CNN
+	1    4950 1250
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 6300 0    50   ~ 0
+NOT POPULATE\nIF CH340C
+Text GLabel 6900 1600 0    50   Input ~ 0
+VDD_3.3V
+$Comp
+L Device:R_Small R6
+U 1 1 5EF12AE6
+P 8600 3750
+F 0 "R6" H 8659 3796 50  0000 L CNN
+F 1 "0" H 8659 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3750 50  0001 C CNN
+F 3 "~" H 8600 3750 50  0001 C CNN
+	1    8600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3850 8600 4250
+Wire Wire Line
+	8600 3650 8600 3550
+Text GLabel 8600 3550 1    50   Input ~ 0
+VDD_3.3V
+Text Notes 8650 3650 0    50   ~ 0
+Power via NanoPi \nif AMS1117\nunpopulated
+NoConn ~ 6000 1700
+NoConn ~ 6900 800 
 $EndSCHEMATC
