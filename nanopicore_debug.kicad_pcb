@@ -12,6 +12,8 @@
   (page A4)
   (title_block
     (title "NanoPI NEO Core debug shield")
+    (date 2020-06-22)
+    (rev v2)
   )
 
   (layers
@@ -1250,7 +1252,7 @@
     (fp_text reference D3 (at 2.908 0.018 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED_DEBUG_PWR (at 0 1.65 90) (layer F.Fab)
+    (fp_text value LED_RED (at 0 1.65 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -1288,7 +1290,7 @@
     (fp_text reference D2 (at -1.075 1.8182 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED_DEBUG_RXD (at 0 1.65 90) (layer F.Fab)
+    (fp_text value LED_RED (at 0 1.65 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -1326,7 +1328,7 @@
     (fp_text reference D1 (at -1.075 -1.718 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED_DEBUG_TXD (at 0 1.65 90) (layer F.Fab)
+    (fp_text value LED_RED (at 0 1.65 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))

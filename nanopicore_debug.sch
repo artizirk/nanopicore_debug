@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NanoPI NEO Core debug shield"
-Date ""
-Rev ""
+Date "2020-06-22"
+Rev "v2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -68,6 +68,8 @@ F 0 "U3" H 2900 6900 50  0000 C CNN
 F 1 "SRV05-4" H 3350 6900 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3800 5950 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 3100 6400 50  0001 C CNN
+F 4 "C85364" H 3100 6400 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/TVS_SRV05-4-P-T7_C85364.html/" H 3100 6400 50  0001 C CNN "Link"
 	1    3100 6400
 	1    0    0    -1  
 $EndComp
@@ -83,6 +85,8 @@ F 0 "U2" H 9700 5800 50  0000 C CNN
 F 1 "CH340G/C" H 9750 5700 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9550 4600 50  0001 L CNN
 F 3 "http://www.datasheet5.com/pdf-local-2195953" H 9150 5950 50  0001 C CNN
+F 4 "C84681" H 9500 5150 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html" H 9500 5150 50  0001 C CNN "Link"
 	1    9500 5150
 	1    0    0    -1  
 $EndComp
@@ -129,6 +133,8 @@ F 0 "U1" H 8150 4492 50  0000 C CNN
 F 1 "AMS1117-3.3" H 8150 4401 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8150 4450 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8250 4000 50  0001 C CNN
+F 4 "C6186" H 8150 4250 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_AMS_AMS1117-3-3_AMS1117-3-3_C6186.html" H 8150 4250 50  0001 C CNN "Link"
 	1    8150 4250
 	1    0    0    -1  
 $EndComp
@@ -244,7 +250,9 @@ P 7450 5050
 F 0 "J4" H 7507 5517 50  0000 C CNN
 F 1 "USB_B_Micro_DEBUG" H 7300 5450 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 7600 5000 50  0001 C CNN
-F 3 "~" H 7600 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MICRO5-9mmusb_C393940.pdf" H 7600 5000 50  0001 C CNN
+F 4 "C393940" H 7450 5050 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO5-9mmusb_C393940.html" H 7450 5050 50  0001 C CNN "Link"
 	1    7450 5050
 	1    0    0    -1  
 $EndComp
@@ -282,9 +290,11 @@ L Device:LED_Small_ALT D3
 U 1 1 5E93CF04
 P 9850 4250
 F 0 "D3" H 9850 4045 50  0000 C CNN
-F 1 "LED_DEBUG_PWR" H 9850 4136 50  0000 C CNN
+F 1 "LED_RED" H 9850 4136 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 4250 50  0001 C CNN
-F 3 "~" V 9850 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912191206_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf" V 9850 4250 50  0001 C CNN
+F 4 "C84256" H 9850 4250 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html" H 9850 4250 50  0001 C CNN "Link"
 	1    9850 4250
 	-1   0    0    1   
 $EndComp
@@ -315,9 +325,11 @@ L Device:LED_Small_ALT D2
 U 1 1 5E943074
 P 9850 3850
 F 0 "D2" H 9850 3645 50  0000 C CNN
-F 1 "LED_DEBUG_RXD" H 9850 3736 50  0000 C CNN
+F 1 "LED_RED" H 9850 3736 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3850 50  0001 C CNN
-F 3 "~" V 9850 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912191206_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf" V 9850 3850 50  0001 C CNN
+F 4 "C84256" H 9850 3850 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html" H 9850 3850 50  0001 C CNN "Link"
 	1    9850 3850
 	-1   0    0    1   
 $EndComp
@@ -326,9 +338,11 @@ L Device:LED_Small_ALT D1
 U 1 1 5E9435B9
 P 9850 3400
 F 0 "D1" H 9850 3195 50  0000 C CNN
-F 1 "LED_DEBUG_TXD" H 9850 3286 50  0000 C CNN
+F 1 "LED_RED" H 9850 3286 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3400 50  0001 C CNN
-F 3 "~" V 9850 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912191206_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf" V 9850 3400 50  0001 C CNN
+F 4 "C84256" H 9850 3400 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html" H 9850 3400 50  0001 C CNN "Link"
 	1    9850 3400
 	-1   0    0    1   
 $EndComp
@@ -350,7 +364,9 @@ P 10350 3400
 F 0 "R1" V 10154 3400 50  0000 C CNN
 F 1 "330" V 10245 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10350 3400 50  0001 C CNN
-F 3 "~" H 10350 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131121_UNI-ROYAL-Uniroyal-Elec-0805W8F3300T5E_C17630.pdf" H 10350 3400 50  0001 C CNN
+F 4 "C17630" V 10350 3400 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F3300T5E_C17630.html" V 10350 3400 50  0001 C CNN "Link"
 	1    10350 3400
 	0    1    1    0   
 $EndComp
@@ -382,7 +398,9 @@ P 8850 5800
 F 0 "Y1" H 8994 5846 50  0000 L CNN
 F 1 "12MHz" H 8994 5755 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 8850 5800 50  0001 C CNN
-F 3 "~" H 8850 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811072033_Yangxing-Tech-X322512MSB4SI_C9002.pdf" H 8850 5800 50  0001 C CNN
+F 4 "C9002" H 8850 5800 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_Yangxing-Tech-X322512MSB4SI_C9002.html" H 8850 5800 50  0001 C CNN "Link"
 	1    8850 5800
 	1    0    0    -1  
 $EndComp
@@ -496,7 +514,9 @@ P 1250 5350
 F 0 "J5" H 1307 5817 50  0000 C CNN
 F 1 "USB_A" H 1307 5726 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 1400 5300 50  0001 C CNN
-F 3 " ~" H 1400 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131821_Jing-Extension-of-the-Electronic-Co-C2345_C2345.pdf" H 1400 5300 50  0001 C CNN
+F 4 "C2345" H 1250 5350 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-C2345_C2345.html" H 1250 5350 50  0001 C CNN "Link"
 	1    1250 5350
 	1    0    0    -1  
 $EndComp
@@ -601,7 +621,9 @@ P 1550 3250
 F 0 "SW1" V 1504 3398 50  0000 L CNN
 F 1 "SW_PWR" V 1595 3398 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 1550 3450 50  0001 C CNN
-F 3 "~" H 1550 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-TS5215A-250gf_C388295.pdf" H 1550 3450 50  0001 C CNN
+F 4 "C388295" V 1550 3250 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS5215A-250gf_C388295.html" V 1550 3250 50  0001 C CNN "Link"
 	1    1550 3250
 	0    1    1    0   
 $EndComp
